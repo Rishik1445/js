@@ -4,56 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wod counter</title>
+    <title>background changer</title>
     <style>
         body{
-            padding: 50px 100px;
+            margin: 0px;
+            padding: 20px 100px;
+            
         }
         h1{
             text-align: center;
-            background-color: aqua;
-            padding: 10px;
-            margin: 0px;
-
+            text-decoration: underline;
         }
-        #textbook{
-            width: 99.4% ;
-            border-color: blueviolet;
+        img{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
 
         }
         p{
-            text-align: center;
-            background-color: blueviolet;
-            font-size: 20px;
-            font-weight: bold;
-            color: white;
-            margin: 0px;}
+            font-size: 18px;
+            text-align: justify;
+        }
+        .btn{
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: solid grey 2px;
+            border-radius: 50%;
+            cursor: pointer;
+            
+
+        }
+        #yellow{
+        background-color: yellow;
+        }
+        #aqua{
+       background-color: aqua;
+        }
+        /* #violet{
+        background-color:orange;
+        } */
+        #pink{
+            background-color: pink;
+        }
+        #orange{
+            background-color: orange;
+        }
+        #color-switcher{
+            text-align: right;
+        }
+
     </style>
 </head>
 <body>
-    <h1>word and character counter</h1>
-    <textarea name="" id="textbook" cols="30" rows="10"></textarea>
-        <p>
-            <span id="word">0</span>  words and
-             <span id="char">0</span> character
-         
-        </p>
-        <script>
-            let textbook = document.getElementById("textbook");
-            textbook.addEventListener('input',function(){
-                var text =this.value;
-                let char = text.length;
-                document.getElementById("char").innerHTML = char;
+    <div id="color-switcher">
+        <span class="btn" id="yellow" onclick="changeBG('yellow')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('aqua')"></span>
+        <span class="btn" id="pink" onclick="changeBG('pink')"></span>
+        <span class="btn" id="orange" onclick="changeBG('orange')"></span>
+    </div>
+    <h1 class="txt">About us</h1>
+    <img src=https://media.istockphoto.com/photos/group-of-business-people-holding-placards-forming-about-us-picture-id492025669?b=1&k=20&m=492025669&s=612x612&w=0&h=2hz25tCWDkAJWHfDCkel1G1_x-e_U-nxB-_WKhRPp9A= alt="">
+    <p class="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vel laborum, fugiat id placeat corrupti accusantium aliquid laudantium dicta voluptas, ipsa tenetur voluptatem? Delectus, neque velit dicta, saepe commodi, explicabo pariatur facilis voluptas blanditiis quos in reprehenderit incidunt iusto ratione officiis recusandae? Quia repudiandae magni illum. Ratione, iusto. Est, enim non aut eligendi pariatur id minima quaerat perferendis illum ut cumque vitae, rerum dolorum! Accusantium, fugiat non ipsa, cupiditate nihil tempore nulla consectetur quod aut voluptates exercitationem facilis ab excepturi earum consequatur, maiores laborum ducimus cumque voluptatibus! Aspernatur alias labore expedita facere adipisci harum error earum ipsum illo. Optio voluptatum repudiandae earum vitae. Accusantium, aperiam? Impedit totam atque incidunt facilis modi dicta sunt eius. Doloribus voluptatibus amet ipsum ut rerum, voluptatum molestiae fugit deserunt illo itaque animi, dolores dolor eaque vitae, inventore porro libero sunt mollitia? Quod dolorum, corrupti quas molestias culpa eligendi quam corporis repellat animi blanditiis officia deleniti, tempora recusandae libero et officiis esse, atque cupiditate exercitationem placeat? Quisquam odio architecto assumenda fugiat quibusdam veritatis facilis in minus officiis tempore inventore tenetur itaque reiciendis quasi qui, voluptates veniam pariatur possimus iste numquam et magni aliquid odit. Suscipit, maiores ullam. Vitae voluptate tempore, cum quo ipsam eos error eius ratione! Magnam sapiente ipsa ratione a placeat dolore molestias assumenda iure amet tempora laudantium quibusdam dolorum modi voluptatum cupiditate incidunt et, natus, rem id. Nesciunt animi totam iusto iure odio. Fuga quasi eum enim ipsum! Architecto accusantium laboriosam, adipisci expedita omnis ut libero soluta molestiae quae reprehenderit culpa in quis tempora doloremque animi aliquam dolore atque quisquam? Tempore rem perferendis magnam aperiam, illum nemo dolorum explicabo expedita dolores ipsam veniam nihil magni deleniti ullam, quasi reprehenderit quisquam dolor. Beatae molestias mollitia alias esse ratione, nihil corporis non optio accusamus a vitae doloremque ab laborum quasi qui id eum exercitationem totam? Nulla quam enim obcaecati, cumque, molestias consectetur dicta deleniti quaerat est excepturi sed iure eaque neque accusantium corporis tenetur, totam atque eos facere numquam voluptatibus odio facilis. Sint quos explicabo dolor eos eligendi, cumque inventore ipsam. Nesciunt suscipit hic, impedit sed laboriosam voluptate a dolorum molestias enim dolores facilis magnam iusto. Voluptatibus, eligendi aperiam illum consectetur at voluptate exercitationem natus ab obcaecati laboriosam veniam dicta unde vero beatae rem repellendus modi eum amet magnam sint ipsa maxime atque distinctio provident? Ratione, optio. Laboriosam autem amet necessitatibus rerum fuga velit voluptatibus minus modi. Sint nisi eaque dicta laudantium laborum facere consequuntur nam, dolor eos iste ipsum perferendis saepe perspiciatis voluptates blanditiis iure nihil doloremque alias veritatis dolores recusandae provident architecto illum consectetur! Exercitationem tempore, facilis hic quos porro explicabo iste doloribus corrupti eaque excepturi repudiandae vitae voluptas aspernatur eius pariatur? Sed, necessitatibus magni? Id dolor eligendi deserunt nemo minus molestiae veniam doloremque. Maxime praesentium perferendis dolorem repudiandae ut ducimus dolore mollitia eligendi, voluptates deserunt eveniet nulla omnis accusantium quo ea repellat laboriosam sint maiores, inventore aspernatur corrupti dolores excepturi! Nesciunt magni officia nemo soluta atque sapiente, reiciendis saepe excepturi deserunt quibusdam exercitationem itaque quisquam minima! Itaque nulla repellendus minima distinctio dolor!</p>
+    <script>
+        function changeBG(color){
+            document.body.style.backgroundColor =color;
 
-                text =text.trim();
-                let words= text.split(" ");
-                let cl =words.filter( function(ele){
-                return ele!=""
-                })
-                
-                document.getElementById("word").innerHTML=cl.length;
-            })
-        </script>
-    
+    }
+    </script>
 </body>
 </html>
